@@ -1,1 +1,6 @@
-
+deployment:
+  master:
+    branch: master
+    owner: circleci
+    commands:
+      - ./deploy_master.sh
