@@ -1,6 +1,6 @@
 deployment:
   master:
     branch: master
-    owner: circleci
+    owner: V2Migration
     commands:
       - ./deploy_master.sh
