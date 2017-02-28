@@ -3,5 +3,5 @@ deployment:
     branch: master
     owner: V2Migration
     commands:
-      - scp -r V2Migration/learn-nightwatch/* kmannem@rcq-usweb01.v2tech.us:/tmp/karthik_circleci/
+      - scp -r learn-nightwatch/* kmannem@rcq-usweb01.v2tech.us:/tmp/karthik_circleci/
       - sshpass -pFamily@143143
