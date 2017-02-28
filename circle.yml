@@ -3,4 +3,4 @@ deployment:
     branch: master
     owner: V2Migration
     commands:
-      - ./deploy_master.sh
+      - scp -r circle-pushing/* kmannem@rcq-usweb01.v2tech.us:/tmp/karthik_circleci/
