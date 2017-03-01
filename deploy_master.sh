@@ -1,9 +1,9 @@
 #!/usr/bin/bash
 
-ssh kmannem@rcq-usweb01.v2tech.us
+#ssh kmannem@rcq-usweb01.v2tech.us
 
-mkdir /tmp/karthik_circleci_tests
+#mkdir /tmp/karthik_circleci_tests
 
-cd /tmp/karthik_circleci_tests
+#cd /tmp/karthik_circleci_tests
 
-git clone https://github.com/V2Migration/learn-nightwatch.git
+#git clone https://github.com/V2Migration/learn-nightwatch.git
