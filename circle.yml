@@ -3,7 +3,7 @@ deployment:
     branch: master
     owner: V2Migration
     commands:
-      - ssh qauser@rcq-usweb01.v2tech.us
-      - cd /var/www/vhosts/www-dev1.v2.com
+      - ssh qauser@shopping-dev01.v2.com
+      - cd /var/www/vhosts/circlecitesting
       - git pull
       -git status
